@@ -62,7 +62,7 @@ Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and inno
 
 - **GitHub:** [@BiqqMax](https://github.com/biqqmax)
 - **Portfolio:** [biqqmax.xyz](https://biqqmax.xyz)
-- **LinkedIn:** [moses-onifade](https://linkedin.com/in/moses-onifade)
+- **LinkedIn:** [Moses Onifade [BiqqMax]](https://linkedin.com/in/moses-onifade)
 - **Twitter/X:** [@BiqqMax](https://twitter.com/biqqmax)
-- **Email:** Moses@focuspadi.com.ng
+- **Email:** BiqqMax@gmail.com
 - **Discord:** [@BiqqMax](https://discord.com/users/biqqmax)
