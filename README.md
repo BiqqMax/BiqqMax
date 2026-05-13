@@ -1,17 +1,18 @@
 #  Moses Onifade [BiqqMax]
 
-Fullstack & Hardware Engineer | Founder of FocusPadi | CS Student @ Babcock University
-
+Software Engineer & Hardware Engineer | AI Explorer | Founder of FocusPadi | Tech Support @ VSavvy Academy
 ---
 
 ## About
 
-Founder and creator of **FocusPadi**, a productivity platform that helps students and professionals stay focused through intelligent scheduling and accountability. Passionate about building scalable solutions that bridge software and hardware, from web applications to embedded systems.
+Founder and creator of [**FocusPadi**](https://focuspadi.com.ng), a productivity platform helping students and professionals stay focused through intelligent scheduling and accountability. Passionate about building scalable solutions that bridge software, hardware, and AI to solve real-world problems.
 
 - 🎓 Computer Science student blending academic theory with production experience
-- 💼 Fullstack developer and hardware engineer with expertise across web, IoT, and embedded systems
+- 💻 Software engineer and hardware engineer with expertise across web, IoT, and embedded systems
+- 🤖 Exploring AI and making it useful in helping humans solve real-world problems
+- 🏢 Tech Support Intern at VSavvy Academy, helping business owners and students navigate technology
 - 📱 Currently expanding into mobile development
-- 🔄 Strong advocate for open collaboration and knowledge sharing
+- 🤝 Strong advocate for open collaboration and knowledge sharing
 
 ---
 
@@ -25,9 +26,9 @@ Founder and creator of **FocusPadi**, a productivity platform that helps student
 ### Hardware Engineering & IoT
 - **Microcontrollers:** Arduino, ESP32 (MQTT, OTA, Wi-Fi/Bluetooth)
 - **SBC:** Raspberry Pi (Linux applications, computer vision, dashboards)
-- **Vision Systems:** Surveillance/IP cameras, RTSP/ONVIF, NVR integration
-- **Languages:** C/C++, Python
-- **Protocols:** MQTT, I2C, SPI, UART
+- **Device Repair & Maintenance:** Mobile phones, laptops; electronics troubleshooting and motherboard diagnostics
+- **CCTV Systems:** Installation, repair, and maintenance of surveillance cameras; RTSP/ONVIF integration, NVR setup
+
 
 ### Mobile Development
 - React Native, Flutter *(in progress)*
@@ -59,7 +60,9 @@ Transform your task list into a structured 7-day focus schedule. Join collaborat
 
 Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and innovation.
 
+- **GitHub:** [@BiqqMax](https://github.com/biqqmax)
 - **Portfolio:** [biqqmax.xyz](https://biqqmax.xyz)
 - **LinkedIn:** [moses-onifade](https://linkedin.com/in/moses-onifade)
-- **Twitter/X:** [@biqqmax](https://twitter.com/biqqmax)
+- **Twitter/X:** [@BiqqMax](https://twitter.com/biqqmax)
 - **Email:** Moses@focuspadi.com.ng
+- **Discord:** [@BiqqMax](https://discord.com/users/biqqmax)
