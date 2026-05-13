@@ -1,63 +1,65 @@
-Hi there, I'm Moses Onifade
+#  Moses Onifade [BiqqMax]
 
-About Me
+Fullstack & Hardware Engineer | Founder of FocusPadi | CS Student @ Babcock University
 
-Founder & Creator of FocusPadi, a productivity web app helping students and professionals stay focused all week through auto-generated schedules and accountability rooms.
+---
 
-CS Student at Babcock University, blending academic theory with practical, real-world application.
+## About
 
-Fullstack Developer & Hardware Engineer with experience spanning web architecture, technical support, and embedded systems.
+Founder and creator of **FocusPadi**, a productivity platform that helps students and professionals stay focused through intelligent scheduling and accountability. Passionate about building scalable solutions that bridge software and hardware, from web applications to embedded systems.
 
-Currently Learning: Mobile App Development to bring products like FocusPadi to native platforms.
+- 🎓 Computer Science student blending academic theory with production experience
+- 💼 Fullstack developer and hardware engineer with expertise across web, IoT, and embedded systems
+- 📱 Currently expanding into mobile development
+- 🔄 Strong advocate for open collaboration and knowledge sharing
 
-Looking to collaborate on: Open-source projects, IoT innovations, and productivity tools.
+---
 
-Tech Stack & Skills
+## 🛠️ Tech Stack & Expertise
 
-Software Development
+### Software Development
+- **Frontend:** React.js, Next.js, HTML, CSS, JavaScript, Tailwind CSS
+- **Backend:** Node.js, Express, Python
+- **Databases:** PostgreSQL, MongoDB, Firebase, Supabase
 
-Frontend: HTML, CSS, JavaScript, React.js, Tailwind CSS,
+### Hardware Engineering & IoT
+- **Microcontrollers:** Arduino, ESP32 (MQTT, OTA, Wi-Fi/Bluetooth)
+- **SBC:** Raspberry Pi (Linux applications, computer vision, dashboards)
+- **Vision Systems:** Surveillance/IP cameras, RTSP/ONVIF, NVR integration
+- **Languages:** C/C++, Python
+- **Protocols:** MQTT, I2C, SPI, UART
 
-Backend: Node.js, Express, Supabase, Python
+### Mobile Development
+- React Native, Flutter *(in progress)*
 
-Databases: PostgreSQL, MongoDB, Firebase, Supabase
+---
 
+## 🚀 Featured Work
 
-Hardware Engineering & IoT
+### FocusPadi
+**Intelligent Scheduling, Simplified**
 
-Microcontrollers: Arduino — prototyping, sensors, low‑power control; ESP32 — Wi‑Fi/Bluetooth IoT, MQTT, OTA.
+Transform your task list into a structured 7-day focus schedule. Join collaborative "Padi" rooms with others on the same schedule to build accountability and streaks together.
 
-Single‑board computers: Raspberry Pi — Linux edge apps, computer vision, local dashboards.
+- **Live:** [focuspadi.com.ng](https://focuspadi.com.ng)
+- **Stack:** React, TypeScript, Next.js, Tailwind CSS, Supabase PostgreSQL
 
-Vision: Surveillance/IP Cameras — RTSP/ONVIF, NVR integration, motion alerts.
+---
 
-Languages: C/C++, Python for embedded
+## 🤝 Open To
 
-Protocols: MQTT, I2C, SPI, UART
+- Open-source contributions
+- IoT and hardware innovations
+- Productivity-focused projects
+- Tech discussions and mentorship
 
+---
 
-Mobile Development (Learning)
+## 📍 Connect With Me
 
-React Native & Flutter
+Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and innovation.
 
-
-Featured Project: FocusPadi
-
-Intelligent Scheduling, Simplified.
-FocusPadi takes the friction out of planning. Tell it your tasks and your free time, and it auto-generates a realistic 7-day focus schedule. Join small "Padi" accountability rooms, follow the same schedule, and build streaks together.
-
-Tech Stack: React, TypeScript, Next.js, Tailwind CSS, Supabase Postgres
-Live at: focuspadi.com.ng
-
-
-Let's Connect
-
-I'm based in Lagos, Nigeria, and always open to discussing tech, startups, hardware, or productivity hacks.
-
-LinkedIn: linkedin.com/in/moses-onifade
-
-Twitter/X: @biqqmax
-
-Portfolio: biqqmax.xyz
-
-Email: Moses@focuspadi.com.ng
+- **Portfolio:** [biqqmax.xyz](https://biqqmax.xyz)
+- **LinkedIn:** [moses-onifade](https://linkedin.com/in/moses-onifade)
+- **Twitter/X:** [@biqqmax](https://twitter.com/biqqmax)
+- **Email:** Moses@focuspadi.com.ng
