@@ -1,4 +1,4 @@
-#  Moses Onifade [BiqqMax]
+#  Moses Onifade [biqqMax]
 
 Software Engineer & Hardware Engineer | AI Explorer | Founder of FocusPadi | Tech Support @ VSavvy Academy
 ---
