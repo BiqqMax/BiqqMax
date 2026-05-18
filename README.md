@@ -35,17 +35,7 @@ Founder and creator of [**FocusPadi**](https://focuspadi.com.ng), a productivity
 
 ---
 
-## 🚀 Featured Work
 
-### FocusPadi
-**Intelligent Scheduling, Simplified**
-
-Transform your task list into a structured 7-day focus schedule. Join collaborative "Padi" rooms with others on the same schedule to build accountability and streaks together.
-
-- **Live:** [focuspadi.com.ng](https://focuspadi.com.ng)
-- **Stack:** React, TypeScript, Next.js, Tailwind CSS, Supabase PostgreSQL
-
----
 
 ## 🤝 Open To
 
@@ -60,9 +50,10 @@ Transform your task list into a structured 7-day focus schedule. Join collaborat
 
 Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and innovation.
 
-- **GitHub:** [@BiqqMax](https://github.com/biqqmax)
-- **Portfolio:** [biqqmax.xyz](https://biqqmax.xyz)
-- **LinkedIn:** [Moses Onifade [BiqqMax]](https://linkedin.com/in/moses-onifade)
-- **Twitter/X:** [@BiqqMax](https://twitter.com/biqqmax)
-- **Email:** BiqqMax@gmail.com
-- **Discord:** [@BiqqMax](https://discord.com/users/biqqmax)
+- **GitHub:** [@biqqMax](https://github.com/biqqmax)
+- **Portfolio:** [biqqMax.xyz](https://biqqmax.xyz)
+- **LinkedIn:** [Moses Onifade [biqqMax]](https://linkedin.com/in/moses-onifade)
+- **Telegram:** [@biqqMax](https://t.me/biqqmax)
+- **Twitter/X:** [@biqqMax](https://twitter.com/biqqmax)
+- **Email:** biqqMax@gmail.com
+- **Discord:** [@biqqMax](https://discord.com/users/biqqmax)
