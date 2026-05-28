@@ -1,11 +1,10 @@
 #  Moses Onifade [biqqMax]
 
-Software Engineer & Hardware Engineer | AI Explorer | Founder of FocusPadi | Tech Support @ VSavvy Academy
+
 ---
 
 ## About
 
-Founder and creator of [**FocusPadi**](https://focuspadi.com.ng), a productivity platform helping students and professionals stay focused through intelligent scheduling and accountability. Passionate about building scalable solutions that bridge software, hardware, and AI to solve real-world problems.
 
 - 🎓 Computer Science student blending academic theory with production experience
 - 💻 Software engineer and hardware engineer with expertise across web, IoT, and embedded systems
@@ -24,7 +23,6 @@ Founder and creator of [**FocusPadi**](https://focuspadi.com.ng), a productivity
 - **Databases:** PostgreSQL, MongoDB, Firebase, Supabase
 
 ### Hardware Engineering & IoT
-- **Microcontrollers:** Arduino, ESP32 (MQTT, OTA, Wi-Fi/Bluetooth)
 - **SBC:** Raspberry Pi (Linux applications, computer vision, dashboards)
 - **Device Repair & Maintenance:** Mobile phones, laptops; electronics troubleshooting and motherboard diagnostics
 - **CCTV Systems:** Installation, repair, and maintenance of surveillance cameras; RTSP/ONVIF integration, NVR setup
@@ -35,6 +33,15 @@ Founder and creator of [**FocusPadi**](https://focuspadi.com.ng), a productivity
 
 ---
 
+## 🛒 Project Catalog
+
+Products I founded and actively build.
+
+| Project       |             Type | Status | Overview                                           |
+| ------------- | ---------------: | -----: | -------------------------------------------------- |
+| [SC Market](/README.md)     |      Marketplace |   Live | Source code marketplace for developers             |
+| [FocusPadi](https://focuspadi.com.ng)     | Productivity App |   Live | Weekly focus tracking for students & professionals |
+| [EverydayForms](/README.md) |     Form Builder | Processing | Lightweight forms with QR sharing & follow-up      |
 
 
 ## 🤝 Open To
@@ -48,7 +55,7 @@ Founder and creator of [**FocusPadi**](https://focuspadi.com.ng), a productivity
 
 ## 📍 Connect With Me
 
-Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and innovation.
+
 
 - **GitHub:** [@biqqMax](https://github.com/biqqmax)
 - **Portfolio:** [biqqMax.xyz](https://biqqmax.xyz)
@@ -57,3 +64,5 @@ Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and inno
 - **Twitter/X:** [@biqqMax](https://twitter.com/biqqmax)
 - **Email:** biqqMax@gmail.com
 - **Discord:** [@biqqMax](https://discord.com/users/biqqmax)
+
+Based in **Lagos, Nigeria** | Always excited to discuss tech, startups, and innovation.
