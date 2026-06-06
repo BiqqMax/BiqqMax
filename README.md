@@ -24,7 +24,7 @@ Products I founded and actively build.
 | ------------- | ---------------: | -----: | -------------------------------------------------- |
 | [SC Market](/README.md)     |      Marketplace |   Live | Source code marketplace for developers             |
 | [FocusPadi](https://focuspadi.com.ng)     | Productivity App |   Live | Weekly focus tracking for students & professionals |
-| [EverydayForms](/README.md) |     Form Builder | Processing | Lightweight forms with QR sharing & follow-up      |
+| [EverydayForms](https://github.com/BiqqMax/bm-everyday-form-app) |     Form Builder | Processing | Lightweight forms with QR sharing & follow-up      |
 
 
 ## 🤝 Open To
