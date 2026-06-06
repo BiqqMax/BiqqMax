@@ -41,7 +41,6 @@ Products I founded and actively build.
 
 
 - **GitHub:** [@biqqMax](https://github.com/biqqmax)
-- **Portfolio:** [biqqMax.xyz](https://biqqmax.xyz)
 - **LinkedIn:** [Moses Onifade [biqqMax]](https://linkedin.com/in/moses-onifade)
 - **Telegram:** [@biqqMax](https://t.me/biqqmax)
 - **Twitter/X:** [@biqqMax](https://twitter.com/biqqmax)
