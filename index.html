@@ -1,190 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moses Onifade [biqqMax]</title>
-<style>
-  :root {
-    --bg: #ffffff;
-    --text: #1a1a1a;
-    --muted: #555;
-    --faint: #888;
-    --border: #ccc;
-    --border-light: #eee;
-    --hr: #ccc;
-    --link: #000;
-    --thick-border: #000;
-    --table-row: #ddd;
-  }
-  .dark {
-    --bg: #111111;
-    --text: #e0e0e0;
-    --muted: #aaaaaa;
-    --faint: #777777;
-    --border: #444444;
-    --border-light: #333333;
-    --hr: #333333;
-    --link: #cccccc;
-    --thick-border: #555555;
-    --table-row: #2a2a2a;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.7;
-    transition: background 0.2s, color 0.2s;
-  }
-  a { color: var(--link); text-decoration: underline; }
-  hr { border: none; border-top: 1px solid var(--hr); }
-  h1, h2 { color: var(--text); }
-  table { width: 100%; border-collapse: collapse; }
-  thead tr { border-bottom: 2px solid var(--thick-border); }
-  th { padding: 8px 12px; text-align: left; font-size: 0.85rem; font-weight: 600; color: var(--text); }
-  tbody tr { border-bottom: 1px solid var(--table-row); }
-  td { padding: 10px 12px; color: var(--text); }
-  td:first-child { color: var(--text); }
-  td:last-child, .muted { color: var(--muted); }
-  .contact-table td:first-child { color: var(--muted); width: 120px; }
-  .contact-table tr { border-bottom: 1px solid var(--border-light); }
-  ul { padding-left: 20px; }
-  ul li { margin-bottom: 4px; color: var(--text); }
-  #theme-toggle {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    width: 44px;
-    height: 44px;
-    border: 1px solid var(--border);
-    border-radius: 50%;
-    background: var(--bg);
-    color: var(--text);
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
-    z-index: 100;
-    line-height: 1;
-  }
-  #theme-toggle:hover { border-color: var(--thick-border); }
-</style>
-<script>
-(function() {
-  var stored = localStorage.getItem('theme');
-  if (stored === 'dark') {
-    document.documentElement.classList.add('dark');
-  } else if (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    document.documentElement.classList.add('dark');
-  }
-})();
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moses Onifade [biqqMax]</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #555;
+      --faint: #888;
+      --border: #ccc;
+      --border-light: #eee;
+      --hr: #ccc;
+      --link: #000;
+      --thick-border: #000;
+      --table-row: #ddd;
+    }
+
+    .dark {
+      --bg: #111111;
+      --text: #e0e0e0;
+      --muted: #aaaaaa;
+      --faint: #777777;
+      --border: #444444;
+      --border-light: #333333;
+      --hr: #333333;
+      --link: #cccccc;
+      --thick-border: #555555;
+      --table-row: #2a2a2a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--hr);
+    }
+
+    h1,
+    h2 {
+      color: var(--text);
+    }
+
+    table {
+      width: 100%;
+      max-width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    th,
+    td {
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+
+    thead tr {
+      border-bottom: 2px solid var(--thick-border);
+    }
+
+    th {
+      padding: 8px 12px;
+      text-align: left;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--table-row);
+    }
+
+    td {
+      padding: 10px 12px;
+      color: var(--text);
+    }
+
+    td:first-child {
+      color: var(--text);
+    }
+
+    td:last-child,
+    .muted {
+      color: var(--muted);
+    }
+
+    .contact-table td:first-child {
+      color: var(--muted);
+      width: 120px;
+    }
+
+    .contact-table tr {
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    #theme-toggle {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+      z-index: 100;
+      line-height: 1;
+    }
+
+    #theme-toggle:hover {
+      border-color: var(--thick-border);
+    }
+  </style>
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      if (stored === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else if (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
 </head>
+
 <body>
 
-<div style="max-width:720px; margin:0 auto; padding:56px 24px;">
+  <div style="max-width:720px; margin:0 auto; padding:56px 24px;">
 
-  <div style="text-align:center; margin-bottom:8px;">
-    <h1 style="font-size:2rem; font-weight:700; margin:0; text-align: left;">Moses Onifade</h1>
-    <p style="font-size:1.05rem; margin:4px 0 0 0; text-align: left;" class="muted">biqqMax</p>
+    <div style="text-align:center; margin-bottom:8px;">
+      <h1 style="font-size:2rem; font-weight:700; margin:0; text-align: left;">Moses Onifade</h1>
+      <p style="font-size:1.05rem; margin:4px 0 0 0; text-align: left;" class="muted">biqqMax</p>
+    </div>
+
+    <hr style="margin:32px 0;">
+
+    <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">About</h2>
+    <ul style="margin:0 0 36px 0;">
+      <li>Computer Science student blending academic theory with production experience</li>
+      <li>Software engineer and hardware engineer with expertise across web, IoT, and embedded systems</li>
+      <li>Exploring AI and making it useful in helping humans solve real-world problems</li>
+      <li>Tech Support Intern at VSavvy Academy, helping business owners and students navigate technology</li>
+      <li>Currently expanding into mobile development</li>
+      <li>Strong advocate for open collaboration and knowledge sharing</li>
+    </ul>
+
+    <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">Product Catalog</h2>
+    <p style="margin:0 0 12px 0; font-size:0.95rem;" class="muted">Products I founded and actively build.</p>
+    <table style="margin-bottom:36px;">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Type</th>
+          <th>Status</th>
+          <th>Overview</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="/README.md">SC Market</a></td>
+          <td>Marketplace</td>
+          <td>Live</td>
+          <td class="muted" style="font-size:0.9rem;">Source code marketplace for developers</td>
+        </tr>
+        <tr>
+          <td><a href="https://focuspadi.com.ng">FocusPadi</a></td>
+          <td>Productivity App</td>
+          <td>Live</td>
+          <td class="muted" style="font-size:0.9rem;">Weekly focus tracking for students & professionals</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/BiqqMax/bm-everyday-form-app">EverydayForms</a></td>
+          <td>Form Builder</td>
+          <td>Processing</td>
+          <td class="muted" style="font-size:0.9rem;">Lightweight forms with QR sharing & follow-up</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">Open To</h2>
+    <ul style="margin:0 0 36px 0;">
+      <li>Open-source contributions</li>
+      <li>IoT and hardware innovations</li>
+      <li>Productivity-focused projects</li>
+      <li>Tech discussions and mentorship</li>
+    </ul>
+
+    <hr style="margin:32px 0;">
+
+    <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">Connect With Me</h2>
+    <table class="contact-table" style="margin-bottom:36px;">
+      <tbody>
+        <tr>
+          <td>GitHub</td>
+          <td><a href="https://github.com/biqqmax">@biqqMax</a></td>
+        </tr>
+        <tr>
+          <td>LinkedIn</td>
+          <td><a href="https://linkedin.com/in/moses-onifade">Moses Onifade</a></td>
+        </tr>
+        <tr>
+          <td>Telegram</td>
+          <td><a href="https://t.me/biqqmax">@biqqMax</a></td>
+        </tr>
+        <tr>
+          <td>Twitter / X</td>
+          <td><a href="https://twitter.com/biqqmax">@biqqMax</a></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><a href="mailto:biqqMax@gmail.com">biqqMax@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td>Discord</td>
+          <td><a href="https://discord.com/users/biqqmax">@biqqMax</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="text-align:center; margin-top:40px; padding-top:20px;">
+      <hr style="margin:0 0 20px 0;">
+      <p style="margin:0; font-size:0.95rem;" class="muted">Based in Lagos, Nigeria</p>
+      <p style="margin:4px 0 0 0; font-size:0.9rem; font-style:italic;" class="faint">Always excited to discuss tech,
+        startups, and innovation.</p>
+    </div>
+
   </div>
 
-  <hr style="margin:32px 0;">
+  <button id="theme-toggle" title="Toggle theme">☀</button>
 
-  <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">About</h2>
-  <ul style="margin:0 0 36px 0;">
-    <li>Computer Science student blending academic theory with production experience</li>
-    <li>Software engineer and hardware engineer with expertise across web, IoT, and embedded systems</li>
-    <li>Exploring AI and making it useful in helping humans solve real-world problems</li>
-    <li>Tech Support Intern at VSavvy Academy, helping business owners and students navigate technology</li>
-    <li>Currently expanding into mobile development</li>
-    <li>Strong advocate for open collaboration and knowledge sharing</li>
-  </ul>
-
-  <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">Product Catalog</h2>
-  <p style="margin:0 0 12px 0; font-size:0.95rem;" class="muted">Products I founded and actively build.</p>
-  <table style="margin-bottom:36px;">
-    <thead>
-      <tr>
-        <th>Project</th>
-        <th>Type</th>
-        <th>Status</th>
-        <th>Overview</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="/README.md">SC Market</a></td>
-        <td>Marketplace</td>
-        <td>Live</td>
-        <td class="muted" style="font-size:0.9rem;">Source code marketplace for developers</td>
-      </tr>
-      <tr>
-        <td><a href="https://focuspadi.com.ng">FocusPadi</a></td>
-        <td>Productivity App</td>
-        <td>Live</td>
-        <td class="muted" style="font-size:0.9rem;">Weekly focus tracking for students & professionals</td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/BiqqMax/bm-everyday-form-app">EverydayForms</a></td>
-        <td>Form Builder</td>
-        <td>Processing</td>
-        <td class="muted" style="font-size:0.9rem;">Lightweight forms with QR sharing & follow-up</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">Open To</h2>
-  <ul style="margin:0 0 36px 0;">
-    <li>Open-source contributions</li>
-    <li>IoT and hardware innovations</li>
-    <li>Productivity-focused projects</li>
-    <li>Tech discussions and mentorship</li>
-  </ul>
-
-  <hr style="margin:32px 0;">
-
-  <h2 style="font-size:1.3rem; font-weight:600; margin:0 0 12px 0;">Connect With Me</h2>
-  <table class="contact-table" style="margin-bottom:36px;">
-    <tbody>
-      <tr><td>GitHub</td><td><a href="https://github.com/biqqmax">@biqqMax</a></td></tr>
-      <tr><td>LinkedIn</td><td><a href="https://linkedin.com/in/moses-onifade">Moses Onifade</a></td></tr>
-      <tr><td>Telegram</td><td><a href="https://t.me/biqqmax">@biqqMax</a></td></tr>
-      <tr><td>Twitter / X</td><td><a href="https://twitter.com/biqqmax">@biqqMax</a></td></tr>
-      <tr><td>Email</td><td><a href="mailto:biqqMax@gmail.com">biqqMax@gmail.com</a></td></tr>
-      <tr><td>Discord</td><td><a href="https://discord.com/users/biqqmax">@biqqMax</a></td></tr>
-    </tbody>
-  </table>
-
-  <div style="text-align:center; margin-top:40px; padding-top:20px;">
-    <hr style="margin:0 0 20px 0;">
-    <p style="margin:0; font-size:0.95rem;" class="muted">Based in Lagos, Nigeria</p>
-    <p style="margin:4px 0 0 0; font-size:0.9rem; font-style:italic;" class="faint">Always excited to discuss tech, startups, and innovation.</p>
-  </div>
-
-</div>
-
-<button id="theme-toggle" title="Toggle theme">☀</button>
-
-<script>
-(function() {
-  var btn = document.getElementById('theme-toggle');
-  var isDark = document.documentElement.classList.contains('dark');
-  btn.textContent = isDark ? '☾' : '☀';
-  btn.addEventListener('click', function() {
-    document.documentElement.classList.toggle('dark');
-    var d = document.documentElement.classList.contains('dark');
-    localStorage.setItem('theme', d ? 'dark' : 'light');
-    btn.textContent = d ? '☾' : '☀';
-  });
-})();
-</script>
+  <script>
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      var isDark = document.documentElement.classList.contains('dark');
+      btn.textContent = isDark ? '☾' : '☀';
+      btn.addEventListener('click', function () {
+        document.documentElement.classList.toggle('dark');
+        var d = document.documentElement.classList.contains('dark');
+        localStorage.setItem('theme', d ? 'dark' : 'light');
+        btn.textContent = d ? '☾' : '☀';
+      });
+    })();
+  </script>
 
 </body>
+
 </html>
